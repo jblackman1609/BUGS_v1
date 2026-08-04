@@ -11,6 +11,5 @@ public class BUGSDbContext : DbContext
     public BUGSDbContext() {}
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) => 
-    optionsBuilder.UseSqlite("Data Source=bugs.db");
-    
+    optionsBuilder.UseSqlite("Data Source=bugs.db");    
 }

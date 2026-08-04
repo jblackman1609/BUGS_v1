@@ -11,6 +11,8 @@ public class Contract
     public string ZipCode { get; set; } = string.Empty;
     public string BondType { get; set; } = string.Empty;
     public string Status { get; set; } = string.Empty;
+    public string? ContractPrice { get; set; }
+    public string? RenewalFee { get; set; }
     public DateTime EffectiveDate { get; set; }
     public DateTime ContractEndDate { get; set; }
     public DateTime TimeStamp { get; set; }
