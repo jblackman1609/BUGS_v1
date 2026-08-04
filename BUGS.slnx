@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="BUGS.BLL/BUGS.BLL.csproj" />
+  <Project Path="BUGS.DAL/BUGS.DAL.csproj" />
+  <Project Path="BUGS.UI/BUGS.UI.csproj" />
+</Solution>
